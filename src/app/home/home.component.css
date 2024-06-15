@@ -1,0 +1,154 @@
+.banner-section .content-column .icon-layer{
+    animation-name: float_up_down; 
+    animation-duration: 5s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+    -webkit-animation-name: float_up_down; 
+    -webkit-animation-duration: 5s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: float_up_down; 
+    -moz-animation-duration: 5s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    
+    -ms-animation-name: float_up_down; 
+    -ms-animation-duration: 5s; 
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+    -o-animation-name: float_left_right; 
+    -o-animation-duration: 5s; 
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+
+.banner-section{
+	position:relative;
+	overflow:hidden;
+	padding-top:50px;
+	background-color:#19274d;
+}
+
+.banner-section .mouse-btn-down{
+	position:absolute;
+	left:50%;
+	margin-left:-20px;
+	bottom:20px;
+	width:30px;
+	height:68px;
+	cursor:pointer;
+	display:block;
+	z-index:20;
+	cursor:pointer;
+}
+
+
+.banner-section .image-layer{
+	position:absolute;
+	right:-300px;
+	top:0px;
+	width:867px;
+	min-height:100vh;
+	height:100%;
+	opacity:0;
+	background-repeat: no-repeat;
+	background-position: right top;
+	transition:all 900ms ease;
+	-moz-transition:all 900ms ease;
+	-webkit-transition:all 900ms ease;
+	-ms-transition:all 900ms ease;
+	-o-transition:all 900ms ease;
+}
+
+.banner-section .image-layer.now-in-view{
+	right:0px;
+	opacity:1;
+}
+
+.banner-section .content-column{
+	position:relative;
+}
+
+.banner-section .content-column .icon-layer{
+	position:absolute;
+	content:'';
+	right:0px;
+	bottom:185px;
+	width:480px;
+	height:70px;
+	background-repeat:no-repeat;
+}
+
+.banner-section .content-column .inner-column{
+	position:relative;
+	padding-top:250px;
+}
+
+.banner-section .content-column .title{
+	position:relative;
+	color:#a5aec5;
+	font-size:18px;
+	line-height:1.8em;
+	margin-bottom:20px;
+	font-weight:500;
+}
+
+.banner-section .content-column h1{
+	position:relative;
+	color:#ffffff;
+	font-weight:300;
+	line-height:1.1em;
+	margin-bottom:35px;
+}
+
+.banner-section .content-column h1 span{
+	font-weight:700;
+}
+
+.banner-section .content-column .text{
+	position:relative;
+	color:#a5aec5;
+	font-size:18px;
+	line-height:1.8em;
+	margin-bottom:35px;
+	font-weight:500;
+}
+
+.banner-section .image-column{
+	position:relative;
+}
+
+.banner-section .image-column .inner-column{
+	position:relative;
+}
+
+.banner-section .image-column .image{
+	position:relative;
+}
+
+.banner-section .image-column .image img{
+	position:relative;
+	max-width:inherit;
+	width:auto;
+	opacity:0;
+	margin-left:250px;
+	transition:all 900ms ease;
+	-moz-transition:all 900ms ease;
+	-webkit-transition:all 900ms ease;
+	-ms-transition:all 900ms ease;
+	-o-transition:all 900ms ease;
+}
+
+.banner-section .image-column .image.now-in-view img{
+	margin-left:0px;
+	opacity:1;
+	-webkit-transition-delay: 500ms;
+	-moz-transition-delay: 500ms;
+	-ms-transition-delay: 500ms;
+	-o-transition-delay: 500ms;
+	transition-delay: 500ms;
+}
