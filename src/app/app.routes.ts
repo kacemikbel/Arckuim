@@ -6,7 +6,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 
 export const routes: Routes = [
-  { path: '', component: AboutUsComponent },
+  { path: '', component: HomeComponent },
   { path: 'footer', component: FooterComponent },
   { path: 'header', component: HeaderComponent },
   { path: 'portfolio', component: PortfolioComponent },
