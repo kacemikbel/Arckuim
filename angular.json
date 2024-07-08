@@ -29,6 +29,14 @@
             ],
             "styles": [
               "src/styles.css",
+               "src/assets/style.css"
+             
+                  "src/assets/bootstrap.css"
+          
+               
+                 
+                
+                      "src/assets/jquery.timepeacker.min.css"
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
