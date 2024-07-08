@@ -4,15 +4,9 @@ import { HeaderComponent } from './shared/header/header.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
-
 export const routes: Routes = [
-
-     {
-      path:'', component : FooterComponent,
-     },
-
-   
-
-  
-    
+  { path: '', component: HomeComponent },
+  { path: 'footer', component: FooterComponent },
+  { path: 'header', component: HeaderComponent },
+  { path: 'portfolio', component: PortfolioComponent },
 ];
