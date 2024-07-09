@@ -6,10 +6,11 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { BlogDetailsComponent } from './pages/blog-details/blog-details.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 export const routes: Routes = [
-  { path: '', component: BlogDetailsComponent },
+  { path: '', component: ContactComponent },
   { path: 'footer', component: FooterComponent },
   { path: 'header', component: HeaderComponent },
   { path: 'portfolio', component: PortfolioComponent },
