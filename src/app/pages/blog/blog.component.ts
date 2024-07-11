@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';  
+
+
+
 
 @Component({
   selector: 'app-blog',
@@ -7,6 +10,7 @@ import { Component } from '@angular/core';
   templateUrl: './blog.component.html',
   styleUrl: './blog.component.css'
 })
-export class BlogComponent {
+export class BlogComponent  {
+
 
 }

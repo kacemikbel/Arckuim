@@ -33,10 +33,11 @@
              
                   "src/assets/bootstrap.css"
           
-               
-                 
-                
+               "src/assets/flaticon.css"
                       "src/assets/jquery.timepeacker.min.css"
+                         "src/assets/fontawesome.min.css"
+                          "src/assets/jquery.fancybox.min.css"
+                          "src/assets/custom.css"
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
