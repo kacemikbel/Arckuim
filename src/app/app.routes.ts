@@ -16,3 +16,12 @@ export const routes: Routes = [
   { path: 'portfolio', component: PortfolioComponent },
   { path: 'aboutus', component: AboutUsComponent },
 ];
+
+
+
+
+
+
+
+
+
