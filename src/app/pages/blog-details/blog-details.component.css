@@ -1041,6 +1041,191 @@
 
 
 
-* {
-	background-color: #b5becc;
+
+.social-widget .social-box li{
+	position:relative;
+	margin-right:8px;
+	display:inline-block;
+}
+
+.social-widget .social-box li a{
+	position:relative;
+	width:40px;
+	height:40px;
+	color:#19274d;
+	line-height:42px;
+	text-align:center;
+	border-radius:50px;
+	display:inline-block;
+	background-color:#eaf2ff;
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+}
+
+.social-widget .social-box li a:before{
+	position:absolute;
+	content:'';
+	left:0px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	border-radius:50px;
+	transform:scale(0,0);
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	box-shadow: 0px 10px 15px rgba(250,70,74,0.15);
+	background-image: -ms-linear-gradient(left, #fa464a 0%, #ff7a43 100%);
+    background-image: -moz-linear-gradient(left, #fa464a 0%, #ff7a43 100%);
+    background-image: -o-linear-gradient(left, #fa464a 0%, #ff7a43 100%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #fa464a), color-stop(100, #ff7a43));
+    background-image: -webkit-linear-gradient(left, #fa464a 0%, #ff7a43 100%);
+    background-image: linear-gradient(to right, #fa464a 0%, #ff7a43 100%);
+}
+
+.social-widget .social-box li a span{
+	position:relative;
+}
+
+.social-widget .social-box li a:hover::before{
+	transform:scale(1,1);
+}
+
+.social-widget .social-box li a:hover{
+	color:#ffffff;
+}
+
+
+
+
+* Post Widget */
+
+.sidebar .popular-posts .post{
+	position:relative;
+	font-size:14px;
+	color:#666666;
+	padding-top:6px;
+	padding-left:100px;
+	min-height:110px;
+	margin-bottom:28px;
+	border-bottom:1px solid #e1e6ff;
+}
+
+.sidebar .popular-posts .post:last-child{
+	margin-bottom:0px;
+	min-height:auto;
+	border:none;
+}
+
+.sidebar .popular-posts .post:last-child{
+	margin-bottom:0px;
+}
+
+.sidebar .popular-posts .post .post-thumb{
+	 position:absolute;
+	 left:0px;
+	 top:0px;
+	 width:80px;
+	 border-radius:0px;
+	overflow:hidden;
+}
+
+.sidebar .popular-posts .post .post-thumb .overlay-box{
+	position: absolute;
+    content: '';
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    opacity: 0;
+	overflow:hidden;
+	border-radius:50%;
+    text-align: center;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    background-color: rgba(251,80,73,0.70);
+}
+
+.sidebar .popular-posts .post .post-thumb .overlay-box .fa{
+	top: 50%;
+    position: relative;
+    margin-top: -12px;
+    display: block;
+}
+
+.sidebar .popular-posts .post:hover .post-thumb .overlay-box{
+	opacity:1;
+}
+
+.sidebar .popular-posts .post .post-thumb img{
+	display:block;
+	width:100%;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.sidebar .popular-posts .post .text{
+	position:relative;
+	top:-4px;
+	font-size:16px;
+	margin:0px 0px 0px;
+	font-weight:600;
+	color:#19274d;
+	line-height:1.6em;
+	text-transform:capitalize;
+	font-family: 'Poppins', sans-serif;
+}
+
+.sidebar .popular-posts .post .text a{
+	color:#19274d;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.sidebar .popular-posts .post a:hover{
+	color:#fa474a;
+}
+
+.sidebar .popular-posts .post-info{
+	position:relative;
+	color: #fc3549;
+    font-size: 14px;
+    font-weight: 400;
+	margin-top:4px;
+	padding-left:20px;
+    background: linear-gradient(to right, #fc3549 0%, #ff7a43 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sidebar .popular-posts .post-info:before{
+	position:absolute;
+	content:'\f073';
+	left:0px;
+	top:5px;
+	font-size:13px;
+	font-weight:800;
+	font-family: 'FontAwesome';
+	color: #fa474a;
+    line-height: 1em;
+    background: linear-gradient(to top, #fa474a 0%, #ff7a43 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
